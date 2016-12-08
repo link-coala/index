@@ -3,6 +3,9 @@
 html {
 background-color: #A9F3FC;
 }
+footer{
+  font-size: 35px; 
+}
 #d1{
 background-color: #ECE59C;
 border-style: dotted;   
@@ -17,11 +20,31 @@ font-size: 21px;
 #p2{
 }
 .si,.no{
-    font-family: 'Libre Baskerville', serif;
- font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Gloria Hallelujah', cursive;
 }
 .see{
     visibility: hidden;
+}
+.target{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  border-style: dotted; 
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;  
+}
+.center{
+  height: 50px;
+  width: 50px; 
+  background-color: red;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto;   
+  border-style: dotted; 
 }
 a:hover {
 } 
@@ -57,11 +80,11 @@ margin-bottom: -10px;
 .si,.no{
        font-size: 42px;
        border-radius: 30px;
-    padding: 9px;
+       padding: 9px;
        text-decoration: none;
-    border-radius: 66px;
+       border-radius: 66px;
        font-family: 'Libre Baskerville', serif;
-    font-family: 'Gloria Hallelujah', cursive;
+       font-family: 'Gloria Hallelujah', cursive;
 }
 .see{
     visibility: hidden;
