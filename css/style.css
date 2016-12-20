@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Nova+Script');
 html {
 background-color: #A9F3FC;
 }
-footer{
-  font-size: 35px; 
+footer {
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 #d1{
 background-color: #ECE59C;
 border-style: dotted;   
 text-align: center; 
 }
-#p1 {   
+#p3 {   
 font-family: "Libre Baskerville",serif;
 word-spacing: 10px;
 padding: 21px;
@@ -24,8 +28,15 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Gloria Hallelujah', cursive;
 }
 .see{
-    visibility: hidden;
+visibility: hidden;
 }
+.on{
+  display: block;
+}
+.focus{
+ background-color: red; 
+}
+
 .target{
   height: 100px;
   width: 100px;
@@ -33,18 +44,28 @@ font-family: 'Gloria Hallelujah', cursive;
   border-radius: 50%;
   padding: 6px;
   border-style: dotted; 
-  margin: 0 auto;
   margin-top: 20px;
-  background-color: white;  
+  background-color: white;
+  position:relative;
+}
+.help,.back{
+  font-family: 'Nova Script', cursive;
+  font-size: 30px;
+  color: green;
 }
 .center{
   height: 50px;
   width: 50px; 
   background-color: red;
   border-radius: 50%;
-  width: 50%;
   margin: 0 auto;   
-  border-style: dotted; 
+  border-style: dotted;
+  display: inline-block;
+  vertical-align: middle;
+  text-align:center;
+  left:10%;
+  position:relative; /*makes left effective*/
+  display:table-cell;
 }
 a:hover {
 } 
@@ -54,7 +75,7 @@ a:hover {
 html {
 background-color: #A9F3FC;
 }
-#d1{
+#d1,#d2{
 background-color: #ECE59C;
 text-align: center; 
 width: 65%;
@@ -63,6 +84,14 @@ border-style: dotted;
 margin: 0 auto;
 margin-top: 133px;  
 }
+#d2{
+  height: 500px;
+  }
+#d3{
+  font-size: 50px;
+  text-align: center;
+  } 
+  
 #p1 {   
 background-color: #ECE59C;
 font-size: 23px;
@@ -78,19 +107,33 @@ font-family: 'Gloria Hallelujah', cursive;
 margin-bottom: -10px;
 }
 .si,.no{
-       font-size: 42px;
-       border-radius: 30px;
-       padding: 9px;
-       text-decoration: none;
-       border-radius: 66px;
-       font-family: 'Libre Baskerville', serif;
-       font-family: 'Gloria Hallelujah', cursive;
+  font-size: 42px;
+  border-radius: 30px;
+  padding: 9px;
+  text-decoration: none;
+  border-radius: 66px;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 .see{
     visibility: hidden;
 }
+  .hide{
+    display: none;
+  }   
 a:hover {
-    color: red;
+    color: black;
     background-color: transparent;
 }
+}
+.floatbox{
+    position:initial;
+   background:white;
+   border-style: solid;
+   border-width: 1.9px;
+    border-color: #FF620D;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6em;
+   text-align:center;
+
 }
